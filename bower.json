@@ -1,0 +1,22 @@
+{
+  "name": "mapreduce",
+  "version": "0.0.1",
+  "authors": [
+    "Henry Huang <Henry.Huang@EF.com>"
+  ],
+  "description": "A mapreduce demo for js",
+  "main": "mapreduce.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.11",
+    "underscore": "~1.6.0"
+  }
+}
