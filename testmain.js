@@ -1,7 +1,7 @@
 require.config({
     paths: {
         "underscore": "components/underscore/underscore",
-        "mapreduce": "mapreduce"　　　
+        "mapreduce": "mapreduce"
     }
 });
 
