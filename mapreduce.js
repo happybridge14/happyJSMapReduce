@@ -29,8 +29,8 @@ define("mapreduce", ["underscore"],
             raw = [];
             for (i = 0; i < length; i++) {
                 raw = raw.concat(_.map(tmp[i], map, this));
-            };
+            }
             return _.reduce(raw, reduce, reduceRaw);
-        }
+        };
     }
 );
